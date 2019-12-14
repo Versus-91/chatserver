@@ -1,0 +1,30 @@
+{
+  "name": "chat_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "www.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "socket.io": "^2.1.1",
+    "socket.io-emitter": "^3.1.1",
+    "socket.io-redis": "^5.2.0",
+    "socketio-sticky-session": "^0.4.3",
+    "sticky-session": "^1.1.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "rand-token": "^0.4.0"
+  },
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "jshintConfig": {
+    "esversion": 8 
+  },
+  "author": "uperTeam",
+  "license": "ISC"
+}

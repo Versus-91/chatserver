@@ -1,0 +1,33 @@
+{
+  "db": {
+    "username": "",
+    "password": "",
+    "host": "localhost",
+    "port": "27017",
+    "name": "testfa"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379
+  },
+  "loginDb": {
+    "host": "postgresql://185.135.229.111/auth"
+  },
+  "cityDb": {
+    "host": "postgresql://185.135.229.111/city"
+  },
+  "url": {
+    "protocol": "http://",
+    "host": "localhost",
+    "port": "3000"
+  },
+  "signOptions": {
+    "issuer": "http://localhost:3000",
+    "audience": "http://localhost:3000",
+    "expiresIn": "5m",
+    "algorithm": "HS256"
+  },
+  "secretKey": {
+    "secret": "This is secret key"
+  }
+}
